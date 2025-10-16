@@ -1,0 +1,35 @@
+a {
+    color: rgb(0, 113, 133);
+    transition: color 0.15s;
+}
+a:hover {
+    color: orange;
+}
+.heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+.price {
+    font-weight: bold;
+    color: rgb(0, 118, 0)
+}
+.cart {
+    background-color: rgb(255, 216, 29);
+}
+.buy {
+    background-color: rgb(255, 164, 28)
+}
+.cart, .buy {
+    height: 32px;
+    width: 102px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.cart:hover, .buy:hover {
+    opacity: 0.8;
+}
+.cart:active, .buy:active {
+    opacity: 0.5
+}
