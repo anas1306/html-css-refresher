@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+}
+
+.profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.tweet {
+    border: none;
+    width: 300px;
+}
+
+.post {
+    border: none;
+    background-color: rgb(46, 138, 218);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
